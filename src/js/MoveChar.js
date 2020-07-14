@@ -42,6 +42,7 @@ export default class MoveChar {
    */
   drawUiWithChar(interval = 1000) {
     this.gamePlay.drawUi();
+    this.movingChar();
     setInterval(() => {
       this.movingChar();
     }, interval);

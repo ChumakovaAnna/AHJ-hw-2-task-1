@@ -11,7 +11,7 @@ export default class Char {
    */
   creatChar() {
     this.char = document.createElement("img");
-    this.char.src = "img/goblin.png";
+    this.char.src = "/img/goblin.png";
     this.char.alt = "goblin";
   }
 
