@@ -40,7 +40,7 @@ export default class MoveChar {
   /**
    * Рисует поле с персонажем с заданным интервалом
    */
-  drawUiWithChar(interval = 1000) {
+  movingCharSetInterval(interval = 1000) {
     this.gamePlay.drawUi();
     this.movingChar();
     setInterval(() => {

@@ -10,4 +10,4 @@ const char = new Char();
 char.creatChar();
 
 const moveChar = new MoveChar(gamePlay, char.getChar());
-moveChar.drawUiWithChar();
+moveChar.movingCharSetInterval();
